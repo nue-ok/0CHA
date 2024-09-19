@@ -1,0 +1,99 @@
+version: "3"
+
+services:
+  mysql:
+    build: ./mysql
+    image: mysql-custom:latest
+    container_name: mysql-container
+    ports:
+      - "${MYSQL_BINDING_PORT}:${MYSQL_PORT}"
+    volumes:
+      - "${MYSQL_VOLUME_PATH}:/var/lib/mysql"
+      - "${MYSQL_DEFAULT_CONFIG_PATH}:/etc/my.cnf"
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - TZ=${TZ}
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    restart: always
+    networks:
+      - app-network
+
+  redis:
+    build: ./redis
+    image: redis-custom:latest
+    container_name: redis-container
+    ports:
+      - "${REDIS_BINDING_PORT}:6379"
+    volumes:
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+      - ./redis/users.acl:/usr/local/etc/redis/users.acl
+      - ./redis/data:/data
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    restart: always
+    networks:
+      - app-network
+
+  jenkins:
+    build: ./jenkins
+    image: jenkins-custom:latest
+    container_name: jenkins-container
+    privileged: true
+    user: root
+    ports:
+      - "${JENKINS_BINDING_PORT}:${JENKINS_PORT}"
+      - "${JENKINS_AGENT_PORT}:50000"
+    volumes:
+      - "${JENKINS_VOLUME_PATH}:/var/jenkins_home"
+      - /home/ubuntu/S11P12B310/docker/data:/host_data
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/bin/docker:/usr/bin/docker
+    environment:
+      - TZ=${TZ}
+      - JENKINS_OPTS=--prefix=/jenkins
+    restart: always
+    networks:
+      - app-network
+
+  proxy-nginx:
+    build: ./proxy-nginx
+    image: proxy-nginx-custom:latest
+    container_name: proxy-nginx-container
+    ports:
+      - "${NGINX_BINDING_PORT}:80"
+      - "443:443"
+    volumes:
+      - ./proxy-nginx/nginx.conf:/etc/nginx/nginx.conf
+      - /var/log/nginx:/var/log/nginx
+      - ./data/certbot/conf:/etc/letsencrypt 
+      - ./data/certbot/www:/var/www/certbot
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  images-nginx:
+    image: nginx:alpine
+    container_name: images-nginx-container
+    ports:
+      - "2000:80"
+    volumes:
+      - /home/ubuntu/images:/usr/share/nginx/html/images
+    restart: always
+    networks:
+      - app-network
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./data/certbot/conf:/etc/letsencrypt 
+      - ./data/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h; done'"
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true
+

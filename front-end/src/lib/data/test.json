@@ -1,0 +1,916 @@
+{
+  "uid": "03dc67ee718641eb8bf0b31389736453",
+  "name": "name",
+  "inferResult": "SUCCESS",
+  "message": "SUCCESS",
+  "matchedTemplate": { "id": 31620, "name": "인바디970" },
+  "validationResult": { "result": "NO_REQUESTED" },
+  "fields": [
+    {
+      "name": "체중",
+      "valueType": "ALL",
+      "boundingPoly": {
+        "vertices": [
+          { "x": 151.0, "y": 373.0 },
+          { "x": 493.0, "y": 373.0 },
+          { "x": 493.0, "y": 400.0 },
+          { "x": 151.0, "y": 400.0 }
+        ]
+      },
+      "inferText": "55 70 as 100 115 130 145 160 175 190 205\n59.1",
+      "inferConfidence": 0.9754917,
+      "type": "NORMAL",
+      "subFields": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 151.0, "y": 376.0 },
+              { "x": 165.0, "y": 376.0 },
+              { "x": 165.0, "y": 386.0 },
+              { "x": 151.0, "y": 386.0 }
+            ]
+          },
+          "inferText": "55",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 184.0, "y": 376.0 },
+              { "x": 197.0, "y": 376.0 },
+              { "x": 197.0, "y": 387.0 },
+              { "x": 184.0, "y": 387.0 }
+            ]
+          },
+          "inferText": "70",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 216.0, "y": 373.0 },
+              { "x": 231.0, "y": 373.0 },
+              { "x": 231.0, "y": 388.0 },
+              { "x": 216.0, "y": 388.0 }
+            ]
+          },
+          "inferText": "as",
+          "inferConfidence": 0.8149,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 247.0, "y": 376.0 },
+              { "x": 264.0, "y": 376.0 },
+              { "x": 264.0, "y": 386.0 },
+              { "x": 247.0, "y": 386.0 }
+            ]
+          },
+          "inferText": "100",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 281.0, "y": 375.0 },
+              { "x": 298.0, "y": 375.0 },
+              { "x": 298.0, "y": 387.0 },
+              { "x": 281.0, "y": 387.0 }
+            ]
+          },
+          "inferText": "115",
+          "inferConfidence": 0.9495,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 313.0, "y": 376.0 },
+              { "x": 330.0, "y": 376.0 },
+              { "x": 330.0, "y": 386.0 },
+              { "x": 313.0, "y": 386.0 }
+            ]
+          },
+          "inferText": "130",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 346.0, "y": 376.0 },
+              { "x": 363.0, "y": 376.0 },
+              { "x": 363.0, "y": 386.0 },
+              { "x": 346.0, "y": 386.0 }
+            ]
+          },
+          "inferText": "145",
+          "inferConfidence": 0.9993,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 378.0, "y": 375.0 },
+              { "x": 397.0, "y": 375.0 },
+              { "x": 397.0, "y": 386.0 },
+              { "x": 378.0, "y": 386.0 }
+            ]
+          },
+          "inferText": "160",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 410.0, "y": 374.0 },
+              { "x": 430.0, "y": 374.0 },
+              { "x": 430.0, "y": 388.0 },
+              { "x": 410.0, "y": 388.0 }
+            ]
+          },
+          "inferText": "175",
+          "inferConfidence": 0.9992,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 444.0, "y": 376.0 },
+              { "x": 462.0, "y": 376.0 },
+              { "x": 462.0, "y": 386.0 },
+              { "x": 444.0, "y": 386.0 }
+            ]
+          },
+          "inferText": "190",
+          "inferConfidence": 0.9446,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 475.0, "y": 376.0 },
+              { "x": 493.0, "y": 376.0 },
+              { "x": 493.0, "y": 386.0 },
+              { "x": 475.0, "y": 386.0 }
+            ]
+          },
+          "inferText": "205",
+          "inferConfidence": 0.9987,
+          "lineBreak": true
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 290.0, "y": 387.0 },
+              { "x": 319.0, "y": 387.0 },
+              { "x": 319.0, "y": 400.0 },
+              { "x": 290.0, "y": 400.0 }
+            ]
+          },
+          "inferText": "59.1",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        }
+      ]
+    },
+    {
+      "name": "골격근량",
+      "valueType": "ALL",
+      "boundingPoly": {
+        "vertices": [
+          { "x": 151.0, "y": 406.0 },
+          { "x": 493.0, "y": 406.0 },
+          { "x": 493.0, "y": 433.0 },
+          { "x": 151.0, "y": 433.0 }
+        ]
+      },
+      "inferText": "70 80 90 100 110 120 130 140 150 160 170\n19.5",
+      "inferConfidence": 0.99459165,
+      "type": "NORMAL",
+      "subFields": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 151.0, "y": 408.0 },
+              { "x": 165.0, "y": 408.0 },
+              { "x": 165.0, "y": 420.0 },
+              { "x": 151.0, "y": 420.0 }
+            ]
+          },
+          "inferText": "70",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 184.0, "y": 409.0 },
+              { "x": 197.0, "y": 409.0 },
+              { "x": 197.0, "y": 419.0 },
+              { "x": 184.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "80",
+          "inferConfidence": 0.9975,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 216.0, "y": 406.0 },
+              { "x": 230.0, "y": 406.0 },
+              { "x": 230.0, "y": 420.0 },
+              { "x": 216.0, "y": 420.0 }
+            ]
+          },
+          "inferText": "90",
+          "inferConfidence": 0.9484,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 247.0, "y": 409.0 },
+              { "x": 264.0, "y": 409.0 },
+              { "x": 264.0, "y": 419.0 },
+              { "x": 247.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "100",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 281.0, "y": 408.0 },
+              { "x": 298.0, "y": 408.0 },
+              { "x": 298.0, "y": 420.0 },
+              { "x": 281.0, "y": 420.0 }
+            ]
+          },
+          "inferText": "110",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 313.0, "y": 409.0 },
+              { "x": 330.0, "y": 409.0 },
+              { "x": 330.0, "y": 419.0 },
+              { "x": 313.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "120",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 345.0, "y": 409.0 },
+              { "x": 363.0, "y": 409.0 },
+              { "x": 363.0, "y": 419.0 },
+              { "x": 345.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "130",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 378.0, "y": 409.0 },
+              { "x": 395.0, "y": 409.0 },
+              { "x": 395.0, "y": 419.0 },
+              { "x": 378.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "140",
+          "inferConfidence": 0.9995,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 410.0, "y": 409.0 },
+              { "x": 428.0, "y": 409.0 },
+              { "x": 428.0, "y": 419.0 },
+              { "x": 410.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "150",
+          "inferConfidence": 0.9996,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 443.0, "y": 409.0 },
+              { "x": 461.0, "y": 409.0 },
+              { "x": 461.0, "y": 419.0 },
+              { "x": 443.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "160",
+          "inferConfidence": 0.9901,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 476.0, "y": 409.0 },
+              { "x": 493.0, "y": 409.0 },
+              { "x": 493.0, "y": 419.0 },
+              { "x": 476.0, "y": 419.0 }
+            ]
+          },
+          "inferText": "170",
+          "inferConfidence": 1.0,
+          "lineBreak": true
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 225.0, "y": 420.0 },
+              { "x": 255.0, "y": 420.0 },
+              { "x": 255.0, "y": 433.0 },
+              { "x": 225.0, "y": 433.0 }
+            ]
+          },
+          "inferText": "19.5",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        }
+      ]
+    },
+    {
+      "name": "체지방량",
+      "valueType": "ALL",
+      "boundingPoly": {
+        "vertices": [
+          { "x": 151.0, "y": 441.0 },
+          { "x": 493.0, "y": 441.0 },
+          { "x": 493.0, "y": 467.0 },
+          { "x": 151.0, "y": 467.0 }
+        ]
+      },
+      "inferText": "40 60 80 100 160 220 280 340 400 460 520\n22.0",
+      "inferConfidence": 0.99144167,
+      "type": "NORMAL",
+      "subFields": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 151.0, "y": 441.0 },
+              { "x": 165.0, "y": 441.0 },
+              { "x": 165.0, "y": 452.0 },
+              { "x": 151.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "40",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 184.0, "y": 441.0 },
+              { "x": 197.0, "y": 441.0 },
+              { "x": 197.0, "y": 452.0 },
+              { "x": 184.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "60",
+          "inferConfidence": 0.9994,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 217.0, "y": 441.0 },
+              { "x": 230.0, "y": 441.0 },
+              { "x": 230.0, "y": 452.0 },
+              { "x": 217.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "80",
+          "inferConfidence": 0.9998,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 248.0, "y": 441.0 },
+              { "x": 264.0, "y": 441.0 },
+              { "x": 264.0, "y": 452.0 },
+              { "x": 248.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "100",
+          "inferConfidence": 0.9995,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 280.0, "y": 441.0 },
+              { "x": 297.0, "y": 441.0 },
+              { "x": 297.0, "y": 452.0 },
+              { "x": 280.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "160",
+          "inferConfidence": 0.9036,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 312.0, "y": 441.0 },
+              { "x": 331.0, "y": 441.0 },
+              { "x": 331.0, "y": 452.0 },
+              { "x": 312.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "220",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 345.0, "y": 441.0 },
+              { "x": 363.0, "y": 441.0 },
+              { "x": 363.0, "y": 452.0 },
+              { "x": 345.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "280",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 378.0, "y": 441.0 },
+              { "x": 396.0, "y": 441.0 },
+              { "x": 396.0, "y": 452.0 },
+              { "x": 378.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "340",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 410.0, "y": 441.0 },
+              { "x": 428.0, "y": 441.0 },
+              { "x": 428.0, "y": 452.0 },
+              { "x": 410.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "400",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 442.0, "y": 441.0 },
+              { "x": 461.0, "y": 441.0 },
+              { "x": 461.0, "y": 452.0 },
+              { "x": 442.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "460",
+          "inferConfidence": 0.9954,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 475.0, "y": 441.0 },
+              { "x": 493.0, "y": 441.0 },
+              { "x": 493.0, "y": 452.0 },
+              { "x": 475.0, "y": 452.0 }
+            ]
+          },
+          "inferText": "520",
+          "inferConfidence": 0.9998,
+          "lineBreak": true
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 328.0, "y": 452.0 },
+              { "x": 360.0, "y": 452.0 },
+              { "x": 360.0, "y": 467.0 },
+              { "x": 328.0, "y": 467.0 }
+            ]
+          },
+          "inferText": "22.0",
+          "inferConfidence": 1.0,
+          "lineBreak": true
+        }
+      ]
+    },
+    {
+      "name": "BMI",
+      "valueType": "ALL",
+      "boundingPoly": {
+        "vertices": [
+          { "x": 147.0, "y": 524.0 },
+          { "x": 486.0, "y": 524.0 },
+          { "x": 486.0, "y": 549.0 },
+          { "x": 147.0, "y": 549.0 }
+        ]
+      },
+      "inferText": "10.0 15.0 18.5 22.0 25.0 30.0 35.0 40.0 45.0 50.0 55\n24.0",
+      "inferConfidence": 0.99886674,
+      "type": "NORMAL",
+      "subFields": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 147.0, "y": 524.0 },
+              { "x": 166.0, "y": 524.0 },
+              { "x": 166.0, "y": 534.0 },
+              { "x": 147.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "10.0",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 180.0, "y": 524.0 },
+              { "x": 199.0, "y": 524.0 },
+              { "x": 199.0, "y": 534.0 },
+              { "x": 180.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "15.0",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 212.0, "y": 524.0 },
+              { "x": 231.0, "y": 524.0 },
+              { "x": 231.0, "y": 534.0 },
+              { "x": 212.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "18.5",
+          "inferConfidence": 0.9941,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 244.0, "y": 524.0 },
+              { "x": 264.0, "y": 524.0 },
+              { "x": 264.0, "y": 534.0 },
+              { "x": 244.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "22.0",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 277.0, "y": 524.0 },
+              { "x": 297.0, "y": 524.0 },
+              { "x": 297.0, "y": 534.0 },
+              { "x": 277.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "25.0",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 310.0, "y": 524.0 },
+              { "x": 329.0, "y": 524.0 },
+              { "x": 329.0, "y": 534.0 },
+              { "x": 310.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "30.0",
+          "inferConfidence": 0.9998,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 343.0, "y": 524.0 },
+              { "x": 362.0, "y": 524.0 },
+              { "x": 362.0, "y": 535.0 },
+              { "x": 343.0, "y": 535.0 }
+            ]
+          },
+          "inferText": "35.0",
+          "inferConfidence": 0.9998,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 375.0, "y": 524.0 },
+              { "x": 395.0, "y": 524.0 },
+              { "x": 395.0, "y": 535.0 },
+              { "x": 375.0, "y": 535.0 }
+            ]
+          },
+          "inferText": "40.0",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 408.0, "y": 524.0 },
+              { "x": 428.0, "y": 524.0 },
+              { "x": 428.0, "y": 534.0 },
+              { "x": 408.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "45.0",
+          "inferConfidence": 0.9998,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 441.0, "y": 524.0 },
+              { "x": 461.0, "y": 524.0 },
+              { "x": 461.0, "y": 534.0 },
+              { "x": 441.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "50.0",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 474.0, "y": 526.0 },
+              { "x": 486.0, "y": 526.0 },
+              { "x": 486.0, "y": 534.0 },
+              { "x": 474.0, "y": 534.0 }
+            ]
+          },
+          "inferText": "55",
+          "inferConfidence": 0.9933,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 286.0, "y": 536.0 },
+              { "x": 316.0, "y": 536.0 },
+              { "x": 316.0, "y": 549.0 },
+              { "x": 286.0, "y": 549.0 }
+            ]
+          },
+          "inferText": "24.0",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        }
+      ]
+    },
+    {
+      "name": "체지방률",
+      "valueType": "ALL",
+      "boundingPoly": {
+        "vertices": [
+          { "x": 148.0, "y": 557.0 },
+          { "x": 493.0, "y": 557.0 },
+          { "x": 493.0, "y": 581.0 },
+          { "x": 148.0, "y": 581.0 }
+        ]
+      },
+      "inferText": "8.0 13.0 18.0 23.0 28.0 33.0 38.0 43.0 48.0 53.0 58.0\n37.2",
+      "inferConfidence": 0.997725,
+      "type": "NORMAL",
+      "subFields": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 148.0, "y": 557.0 },
+              { "x": 164.0, "y": 557.0 },
+              { "x": 164.0, "y": 567.0 },
+              { "x": 148.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "8.0",
+          "inferConfidence": 0.9868,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 179.0, "y": 557.0 },
+              { "x": 198.0, "y": 557.0 },
+              { "x": 198.0, "y": 567.0 },
+              { "x": 179.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "13.0",
+          "inferConfidence": 0.9999,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 212.0, "y": 557.0 },
+              { "x": 231.0, "y": 557.0 },
+              { "x": 231.0, "y": 567.0 },
+              { "x": 212.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "18.0",
+          "inferConfidence": 0.9984,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 244.0, "y": 557.0 },
+              { "x": 263.0, "y": 557.0 },
+              { "x": 263.0, "y": 567.0 },
+              { "x": 244.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "23.0",
+          "inferConfidence": 0.9996,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 277.0, "y": 557.0 },
+              { "x": 296.0, "y": 557.0 },
+              { "x": 296.0, "y": 567.0 },
+              { "x": 277.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "28.0",
+          "inferConfidence": 0.9987,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 310.0, "y": 557.0 },
+              { "x": 329.0, "y": 557.0 },
+              { "x": 329.0, "y": 567.0 },
+              { "x": 310.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "33.0",
+          "inferConfidence": 0.9991,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 342.0, "y": 557.0 },
+              { "x": 362.0, "y": 557.0 },
+              { "x": 362.0, "y": 567.0 },
+              { "x": 342.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "38.0",
+          "inferConfidence": 0.9967,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 374.0, "y": 557.0 },
+              { "x": 395.0, "y": 557.0 },
+              { "x": 395.0, "y": 567.0 },
+              { "x": 374.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "43.0",
+          "inferConfidence": 0.9998,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 407.0, "y": 557.0 },
+              { "x": 428.0, "y": 557.0 },
+              { "x": 428.0, "y": 567.0 },
+              { "x": 407.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "48.0",
+          "inferConfidence": 0.9995,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 440.0, "y": 557.0 },
+              { "x": 460.0, "y": 557.0 },
+              { "x": 460.0, "y": 567.0 },
+              { "x": 440.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "53.0",
+          "inferConfidence": 0.9957,
+          "lineBreak": false
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 473.0, "y": 557.0 },
+              { "x": 493.0, "y": 557.0 },
+              { "x": 493.0, "y": 567.0 },
+              { "x": 473.0, "y": 567.0 }
+            ]
+          },
+          "inferText": "58.0",
+          "inferConfidence": 0.9985,
+          "lineBreak": true
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              { "x": 352.0, "y": 567.0 },
+              { "x": 383.0, "y": 567.0 },
+              { "x": 383.0, "y": 581.0 },
+              { "x": 352.0, "y": 581.0 }
+            ]
+          },
+          "inferText": "37.2",
+          "inferConfidence": 1.0,
+          "lineBreak": false
+        }
+      ]
+    }
+  ],
+  "title": {
+    "name": "회원번호",
+    "boundingPoly": {
+      "vertices": [
+        { "x": 45.0, "y": 116.0 },
+        { "x": 109.0, "y": 116.0 },
+        { "x": 109.0, "y": 130.0 },
+        { "x": 44.0, "y": 130.0 }
+      ]
+    },
+    "inferText": "Jane Doe",
+    "inferConfidence": 0.9999,
+    "subFields": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            { "x": 45.0, "y": 117.0 },
+            { "x": 77.0, "y": 118.0 },
+            { "x": 77.0, "y": 129.0 },
+            { "x": 44.0, "y": 128.0 }
+          ]
+        },
+        "inferText": "Jane",
+        "inferConfidence": 0.9998,
+        "lineBreak": false
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            { "x": 79.0, "y": 116.0 },
+            { "x": 109.0, "y": 116.0 },
+            { "x": 109.0, "y": 130.0 },
+            { "x": 79.0, "y": 130.0 }
+          ]
+        },
+        "inferText": "Doe",
+        "inferConfidence": 1.0,
+        "lineBreak": false
+      }
+    ]
+  }
+}

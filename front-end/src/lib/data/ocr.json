@@ -1,0 +1,372 @@
+{
+  "version": "V2",
+  "requestId": "unique_request_id",
+  "timestamp": 1723713241427,
+  "images": [
+    {
+      "uid": "1924565e87d944e5825a134c88afc510",
+      "name": "inbody_image",
+      "inferResult": "SUCCESS",
+      "message": "SUCCESS",
+      "matchedTemplate": {
+        "id": 31620,
+        "name": "인바디970"
+      },
+      "validationResult": {
+        "result": "NO_REQUESTED"
+      },
+      "convertedImageInfo": {
+        "width": 830,
+        "height": 1170,
+        "pageIndex": 0,
+        "longImage": false
+      },
+      "fields": [
+        {
+          "name": "체중",
+          "valueType": "ALL",
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 151.0,
+                "y": 373.0
+              }
+            ]
+          },
+          "inferText": "55 70 as 100 115 130 145 160 175 190 205\n59.1",
+          "inferConfidence": 0.9754917,
+          "type": "NORMAL",
+          "subFields": [
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 216.0,
+                    "y": 373.0
+                  },
+                  {
+                    "x": 231.0,
+                    "y": 373.0
+                  },
+                  {
+                    "x": 231.0,
+                    "y": 388.0
+                  },
+                  {
+                    "x": 216.0,
+                    "y": 388.0
+                  }
+                ]
+              },
+              "inferText": "as",
+              "inferConfidence": 0.8149,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 247.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 264.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 264.0,
+                    "y": 386.0
+                  },
+                  {
+                    "x": 247.0,
+                    "y": 386.0
+                  }
+                ]
+              },
+              "inferText": "100",
+              "inferConfidence": 1.0,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 281.0,
+                    "y": 375.0
+                  },
+                  {
+                    "x": 298.0,
+                    "y": 375.0
+                  },
+                  {
+                    "x": 298.0,
+                    "y": 387.0
+                  },
+                  {
+                    "x": 281.0,
+                    "y": 387.0
+                  }
+                ]
+              },
+              "inferText": "115",
+              "inferConfidence": 0.9495,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 313.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 330.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 330.0,
+                    "y": 386.0
+                  },
+                  {
+                    "x": 313.0,
+                    "y": 386.0
+                  }
+                ]
+              },
+              "inferText": "130",
+              "inferConfidence": 1.0,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 346.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 363.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 363.0,
+                    "y": 386.0
+                  },
+                  {
+                    "x": 346.0,
+                    "y": 386.0
+                  }
+                ]
+              },
+              "inferText": "145",
+              "inferConfidence": 0.9993,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 378.0,
+                    "y": 375.0
+                  },
+                  {
+                    "x": 397.0,
+                    "y": 375.0
+                  },
+                  {
+                    "x": 397.0,
+                    "y": 386.0
+                  },
+                  {
+                    "x": 378.0,
+                    "y": 386.0
+                  }
+                ]
+              },
+              "inferText": "160",
+              "inferConfidence": 0.9999,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 410.0,
+                    "y": 374.0
+                  },
+                  {
+                    "x": 430.0,
+                    "y": 374.0
+                  },
+                  {
+                    "x": 430.0,
+                    "y": 388.0
+                  },
+                  {
+                    "x": 410.0,
+                    "y": 388.0
+                  }
+                ]
+              },
+              "inferText": "175",
+              "inferConfidence": 0.9992,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 444.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 462.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 462.0,
+                    "y": 386.0
+                  },
+                  {
+                    "x": 444.0,
+                    "y": 386.0
+                  }
+                ]
+              },
+              "inferText": "190",
+              "inferConfidence": 0.9446,
+              "lineBreak": false
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 475.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 493.0,
+                    "y": 376.0
+                  },
+                  {
+                    "x": 493.0,
+                    "y": 386.0
+                  },
+                  {
+                    "x": 475.0,
+                    "y": 386.0
+                  }
+                ]
+              },
+              "inferText": "205",
+              "inferConfidence": 0.9987,
+              "lineBreak": true
+            },
+            {
+              "boundingPoly": {
+                "vertices": [
+                  {
+                    "x": 290.0,
+                    "y": 387.0
+                  },
+                  {
+                    "x": 319.0,
+                    "y": 387.0
+                  },
+                  {
+                    "x": 319.0,
+                    "y": 400.0
+                  },
+                  {
+                    "x": 290.0,
+                    "y": 400.0
+                  }
+                ]
+              },
+              "inferText": "59.1",
+              "inferConfidence": 1.0,
+              "lineBreak": false
+            }
+          ]
+        }
+      ],
+      "title": {
+        "name": "회원번호",
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 45.0,
+              "y": 116.0
+            },
+            {
+              "x": 109.0,
+              "y": 116.0
+            },
+            {
+              "x": 109.0,
+              "y": 130.0
+            },
+            {
+              "x": 44.0,
+              "y": 130.0
+            }
+          ]
+        },
+        "inferText": "Jane Doe",
+        "inferConfidence": 0.9999,
+        "subFields": [
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 45.0,
+                  "y": 117.0
+                },
+                {
+                  "x": 77.0,
+                  "y": 118.0
+                },
+                {
+                  "x": 77.0,
+                  "y": 129.0
+                },
+                {
+                  "x": 44.0,
+                  "y": 128.0
+                }
+              ]
+            },
+            "inferText": "Jane",
+            "inferConfidence": 0.9998,
+            "lineBreak": false
+          },
+          {
+            "boundingPoly": {
+              "vertices": [
+                {
+                  "x": 79.0,
+                  "y": 116.0
+                },
+                {
+                  "x": 109.0,
+                  "y": 116.0
+                },
+                {
+                  "x": 109.0,
+                  "y": 130.0
+                },
+                {
+                  "x": 79.0,
+                  "y": 130.0
+                }
+              ]
+            },
+            "inferText": "Doe",
+            "inferConfidence": 1.0,
+            "lineBreak": false
+          }
+        ]
+      }
+    }
+  ]
+}
